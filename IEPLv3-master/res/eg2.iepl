@@ -1,0 +1,5 @@
+rain.
+goOut.
+bringUmbrella :- rain, goOut.
+drive :- bringUmbrella.
+applySunScreen :- sunShine, goOut.

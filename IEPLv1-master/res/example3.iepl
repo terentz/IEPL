@@ -1,0 +1,7 @@
+rain.
+goOut.
+bringUmbrella :- rain, goOut.
+drive :- bringUmbrella.
+applySunScreen :- sunShine,goOut.
+walkToUni :- sunShine.
+takeBusToUni :- bringUmbrella.

@@ -1,0 +1,9 @@
+person.
+studying.
+doingMajorThesis.
+fullTimeWorking.
+student :- person, studying.
+researchStudent :- student, doingMajorThesis.
+partTimeStudent :- student, fullTimeWorking.
+partTimeResearchStudent :- partTimeStudent, researchStudent.
+partTimeFullFeeStudent :- partTimeStudent, payingFullFee.
